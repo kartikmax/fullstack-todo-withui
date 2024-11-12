@@ -1,0 +1,96 @@
+/* App.css */
+
+.App {
+  font-family: "Tahoma", Cambria, Cochin, sans-serif;
+  padding: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Styling for the Todo App Section */
+.TodoAppContainer {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Counter Widgets Styling */
+.CounterWidget {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.CounterWidget h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.CounterWidget .icon {
+  font-size: 55px;
+}
+
+/* Display Chart Container */
+.DisplayChart {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .CounterWidget {
+    padding: 10px;
+  }
+
+  input {
+    width: 60%;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
